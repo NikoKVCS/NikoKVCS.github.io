@@ -149,13 +149,43 @@
     
     
         <article class="index-post">
+            <a class="content-show-full" href = "/2017/11/25/安卓编译 multi dex 问题/" >
+                    <h2 class="abstract-title">
+                        
+                        <span>安卓编译 multi dex 问题</span>
+                    </h2>
+                <div class="abstract-content">
+                    安卓编译apk 时 出现下面的错误
+
+Error:Execution failed for task ‘:app:transformDexArchiveWithExternalLibsDexMergerForDebug’.java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Unable to merge dex\
+
+这是因为引用的包重复了重复的可能性很多, 可能是 library 和 app 两个 module 用了一样的...
+                </div>
+            </a>
+            <div class="abstract-post-meta">
+                <!-- tags  -->
+                
+                <!-- date  -->
+                <div class="abstract-date">
+                    <span class="abstract-calander iconfont-archer"></span><span class="abstract-time">2017/11/25</span>
+                </div>
+            </div>
+        </article>
+    
+    
+    
+        <article class="index-post">
             <a class="content-show-full" href = "/2017/11/23/git 的使用笔记/" >
                     <h2 class="abstract-title">
                         
                         <span>Git 的使用笔记</span>
                     </h2>
                 <div class="abstract-content">
-                    拷贝的步骤1. git clone xxx2. cd .\android\a. 进入到此本地文件仓库b. 这一步是关键的, 因为有时候你有好多个项目, 例如 github 文件夹下, 有 /android/..  也有 /forcestorm/.. 还有/python-three/..c. 所以切换到文件进去, 他才知道你在 指定哪一个项目3. git co origin/Campus_MD  —-a. 切换到 远程库的 Campus_MD 分支b. [会自动把远程该branch的文件 pull 到本地下来] ??? 未验证这句话c. origin/ 是远程库的意思4. git co -...
+                     拷贝的步骤
+git clone xxx
+cd .\android\    进入到此本地文件仓库    这一步是关键的, 因为有时候你有好多个项目, 例如 github 文件夹下, 有 /android/..  也有 /forcestorm/.. 还有/python-three/..    所以切换到文件进去, 他才知道你在 指定哪一个项目
+git co origin/Campus_MD  —-    切换到 远程库的 Campus_MD 分支    [会自动把远程该branch的文件 pull 到本地下来] ??? 未验证这句话    origin/ 是远程库的意思
+git co -b...
                 </div>
             </a>
             <div class="abstract-post-meta">
@@ -235,7 +265,14 @@
     
     
     
-    <div class="total-archive"> Total : 1 </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="total-archive"> Total : 2 </div>
     
     <div class="post-archive">
     
@@ -244,6 +281,11 @@
     
     <div class="archive-year"> 2017 </div>
     <ul class="year-list">
+    
+    
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/25</span><a class="archive-post-title" href= "/2017/11/25/安卓编译 multi dex 问题/" >安卓编译 multi dex 问题</a>
+        </li>
     
     
         <li class="archive-post-item">
